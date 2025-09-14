@@ -29,26 +29,12 @@ O contador é armazenado localmente no navegador, então os dados persistem entr
 
 ## Estrutura do projeto
 
--src/
-  -popup/
-    -popup.html -> HTML do popup
-    -popup.js -> Lógica de interação do popup
-    -popup.css -> Estilização do popup
-  -content/
-    -content.js -> Script injetado em páginas específicas
-  -background/
-    -service-worker.js -> Service worker responsável pelo contador
-  -assets/
-    -logo.svg -> Logo/ícone em SVG
-  -styles/
-    -global.css -> CSS global
-  -icons/
-    -icon16.png
-    -icon32.png
-    -icon48.png
-    -icon128.png
-  -docs/
-    -index.html -> Pagina para GitHub Pages
-  -manifest.json
-  -README.md
-  -LICENSE
+1. src -> Diretorio raiz do projeto
+2. popup -> Html, lógica e estilização do popup
+3. contet
+4. background -> service worker responsavel pelo contador
+5. assets -> logo em svg
+6. styles -> CSS global
+7. icons -> icones utilizados
+8. docs -> Github Pages
+
